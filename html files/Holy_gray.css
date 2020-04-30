@@ -1,0 +1,38 @@
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article ads"
+      "footer footer footer";
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr 15%;
+    grid-gap: 10px solid gra;
+    height: 80vh;
+    margin: 0;
+    }
+  header, footer, article, nav, div {
+    padding: 20px;
+    background: grey;
+  }
+  #pageHeader {
+    grid-area: header;
+    color:white;
+    text-align: center;
+    background-color: teal;
+  }
+  #pageFooter {
+    grid-area: footer;
+    background-color: teal;
+  }
+  #mainArticle { 
+    grid-area: article;
+    background-color: whitesmoke;      
+    }
+  #mainNav { 
+    grid-area: nav;
+    background-color:darkcyan ; 
+    }
+  #siteAds { 
+    grid-area: ads; 
+    background-color: darkslateblue;
+    }

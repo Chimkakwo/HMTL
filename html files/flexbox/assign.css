@@ -1,0 +1,18 @@
+table{ border: "2";
+        display: table;
+        border-collapse: separate;
+        border-spacing: 2px;
+        border-color: red;
+}
+h1, h2{color:green;}
+label{color:darkred;}
+strong{color:orange;}
+a{color:blue;}
+li {
+    display: list-item;
+    text-align: ;
+}
+em{color:orange;}
+th{ font: bold;}
+.first{ color:blue}
+.second{ color: purple}

@@ -1,0 +1,27 @@
+.container{
+   width:320px;
+   min-height:220px;
+    background-color: cyan;
+    border:2px solid gray;
+    border-radius: 12px;
+    padding:1rem;
+    box-shadow: 0 0 24px 12px rgba(0, 0, 0, .16);
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+.btn{
+    background-color: transparent;
+    border:1px solid brown;
+    border-radius:10px;
+}
+span{color: orange}

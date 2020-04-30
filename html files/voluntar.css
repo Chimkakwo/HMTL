@@ -1,0 +1,19 @@
+.mama{
+   border:1px solid red;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap-reverse;
+}
+.pikin{
+ height: 200px;
+ width: 200px;
+ /*border:1px solid blue*/
+}
+.pikin:first-child{
+    background-color: orangered;
+}
+.pikin:last-child{background-color: yellow;}
+.pikin:nth-child(2){ background-color: orange}
+.pikin:nth-child(3){ background-color: green}
+.pikin:nth-child(4){ background-color: blue}
+.pikin:nth-child(5){ background-color: blueviolet}
